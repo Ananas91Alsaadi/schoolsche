@@ -1,0 +1,136 @@
+* {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgba(225, 225, 225, 0.062745098);
+}
+
+main {
+  display: none;
+  margin-top: 3%;
+  max-width: 900px;
+}
+
+header {
+  margin-bottom: 5%;
+}
+header * {
+  margin: 0;
+  text-align: left;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2%;
+  background-color: #ff0;
+}
+
+#form {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1%;
+  padding: 2%;
+  width: 25%;
+  background-color: rgba(255, 255, 0, 0.5333333333);
+  border-radius: 10px;
+}
+#form button {
+  width: 90%;
+  background-color: #fefefe;
+  color: black;
+  margin: 0% auto;
+  margin-top: 13%;
+  padding: 2%;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#form button:hover {
+  background-color: #ededed;
+}
+#form label {
+  margin: 0;
+  text-align: left;
+}
+#form input[type=text] {
+  width: 100%;
+  padding: 2%;
+  margin: 1% 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.single-course {
+  width: 50%;
+  background-color: rgba(245, 252, 201, 0.368627451);
+  box-shadow: 0px 0px 10px 0px #c6c6c6;
+  margin: 3% auto;
+  border-radius: 5px;
+}
+.single-course:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 10px 2px #c6c6c6;
+}
+
+#bar {
+  display: flex;
+  margin: 2%;
+  padding: 1%;
+  border-bottom: 1px solid #000;
+}
+#bar div {
+  cursor: pointer;
+  color: blue;
+}
+#bar div:hover {
+  text-shadow: 0px 0px 15px #00f;
+}
+
+#name {
+  cursor: pointer;
+  color: blue;
+}
+
+#course-name {
+  margin: 0;
+  text-align: left;
+}
+
+table {
+  margin: 0 auto;
+  text-align: center;
+}
+table * {
+  margin: 0 auto;
+  text-align: center;
+  border: 1px solid #000;
+  width: 30rem;
+}
+table th {
+  background-color: #ff0;
+}
+table tr td:first-child, table tr th:first-child {
+  width: 3rem;
+}
+table tr td:second-child, table tr th:first-child {
+  width: 3rem;
+}
+table tr td:not(:first-child) {
+  padding: 0 1rem;
+  text-align: left;
+}
+
+#log-out {
+  float: right;
+  cursor: pointer;
+}
+#log-out:hover {
+  text-shadow: 0px 0px 15px #00f;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,154 @@
+{
+	"university": {
+		"name": "linn",
+		"location": "vaxjo",
+		"programs": {
+
+			"a1234555": {
+				"name": "Software Technology",
+				"subjects": {
+
+					"c12313": {
+						"name": "test1",
+						"examType": "ORAL",
+						"period": "SPRING",
+						"pace": "THIRD",
+						"credits": 5.0,
+						"field": "MATHS",
+						"students": {
+
+							"s11": {
+								"name": "aasdasd aaaa" ,
+								"gpa": "0.0" ,
+								"coursesPassed": ""
+							},
+							"s12": {
+								"name": "asfasd asfasda" ,
+								"gpa": "0.0" ,
+								"coursesPassed": ""
+							}
+						},
+						"teachers": {
+
+							"t11": {
+								"name": "t1 " ,
+								"Qualification": "MATHS" ,
+								"publication": "" ,
+								"researchTime": "THIRD" 
+							}
+						},
+						"studyMaterials": {
+							"m1": {
+								"title":"asasasd",
+								"Authors": {
+								"name": "a1 " 
+								}
+							}
+						}
+					},
+					"c2332": {
+						"name": "test2",
+						"examType": "ORAL",
+						"period": "SPRING",
+						"pace": "THIRD",
+						"credits": 0.0,
+						"field": "MATHS",
+						"students": {
+
+							"s13": {
+								"name": "s2 " ,
+								"gpa": "0.0" ,
+								"coursesPassed": ""
+							},
+							"s11": {
+								"name": "aasdasd aaaa" ,
+								"gpa": "0.0" ,
+								"coursesPassed": ""
+							}
+						},
+						"teachers": {
+
+							"t12": {
+								"name": " t2" ,
+								"Qualification": "MATHS" ,
+								"publication": "" ,
+								"researchTime": "THIRD" 
+							}
+						},
+						"studyMaterials": {
+							"m2": {
+								"Authors": {
+								"name": "a2 " 
+								}
+							}
+						}
+					}
+				},
+				"coordinator": {
+
+					"7": "one Coo name one Coo L name" ,
+					"9": "second coo name second coo L name" 
+				},
+				"classRooms": {
+
+					"Tech1" : {
+						"buildingName": "A",
+						"buildingBlockName": "Tech"
+					},
+					"Eng1" : {
+						"buildingName": "B",
+						"buildingBlockName": "Eng"
+					}
+				}
+			},
+			"a122312": {
+				"name": "Tech2",
+				"subjects": {
+					"c2332": {
+						"name": "test2",
+						"examType": "ORAL",
+						"period": "SPRING",
+						"pace": "THIRD",
+						"credits": 0.0,
+						"field": "MATHS",
+						"students": {
+
+							"s13": {
+								"name": "s2 " ,
+								"gpa": "0.0" ,
+								"coursesPassed": ""
+							},
+							"s11": {
+								"name": "aasdasd aaaa" ,
+								"gpa": "0.0" ,
+								"coursesPassed": ""
+							}
+						},
+						"teachers": {
+
+							"t12": {
+								"name": " t2" ,
+								"Qualification": "MATHS" ,
+								"publication": "" ,
+								"researchTime": "THIRD" 
+							}
+						},
+						"studyMaterials": {
+							"m2": {
+								"Authors": {
+								"name": "a2 " 
+								}
+							}
+						}
+					}
+				},
+				"coordinator": {
+
+				},
+				"classRooms": {
+
+				}
+			}
+		}
+	}
+}
